@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "build": "vite build",
+    "json-server": "json-server --watch db.json -d 1000 --port 3001",
     "preview": "vite preview",
     "start": "vite",
     "test": "vitest",
@@ -38,6 +39,7 @@
     "eslint-plugin-testing-library": "^5.9.1",
     "eslint-plugin-use-encapsulation": "^1.1.0",
     "jsdom": "^20.0.2",
+    "json-server": "^0.17.3",
     "postcss": "^8.4.19",
     "prettier": "^2.8.0",
     "prettier-plugin-tailwindcss": "^0.2.0",
