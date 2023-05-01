@@ -1,4 +1,16 @@
-# React Router Demo w/Contacts
+# React Router Challenge with Contacts I
+
+Here's [what you are building](https://www.loom.com/share/a375773f8b57430d87af0cab8bac172b).
+
+It doesn't have to match exactly, but it should be close. Styles 💄 R up 2 U.
+
+## Requirements
+
+- [ ] Use `react-router-dom` to create a multi-page app. One page loads the list of contacts and the other page displays the details of a single contact. You must use **loaders** with the `Loading` component. You must also create a fallback `Error` component that displays when there is an error.
+
+## Bonus
+
+Include testing ✅.
 
 ## Getting Started
 
