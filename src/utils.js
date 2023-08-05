@@ -12,6 +12,18 @@ function getFirstLetterOfLastName(name) {
   return names[names.length - 1][0];
 }
 
+export const alphabetizeContactsByLastName = (contacts) => {
+  return contacts.sort((a, b) => {
+    const aSplitName = a.name.split(" ");
+    const bSplitName = b.name.split(" ");
+
+    const aLastName = aSplitName[aSplitName.length - 1];
+    const bLastName = bSplitName[bSplitName.length - 1];
+
+    return aLastName.localeCompare(bLastName);
+  });
+};
+
 export const groupContactsByLetterUsingLastNames = (contacts) => {
   return contacts.reduce((groups, contact) => {
     const firstLetterOfLastName = getFirstLetterOfLastName(contact.name);
